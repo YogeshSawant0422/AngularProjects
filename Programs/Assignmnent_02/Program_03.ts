@@ -12,15 +12,16 @@ function SMaximum(arr:number[]): number
 
     for (i = 0; i < arr.length; i++)
     {
-        if (arr[i] > max2)
+        if (i == 0)
         {
             max2 = arr[i];
-            if (max2 > max1)
-            {
-                max2 = arr[i];
-            }
+        }
+        if (arr[i] > max2 && max1 != arr[i])
+        {
+            max2 = arr[i];
         }
     }
+
     return max2;
 }
 
