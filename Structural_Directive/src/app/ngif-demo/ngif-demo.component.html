@@ -1,0 +1,19 @@
+
+<h1 *ngIf="flag">
+  Inside Marvellous Componenet
+</h1>
+
+
+<ng-template #VegFood>
+ <h1>Plese Consider veg food menu</h1>
+</ng-template>
+
+<ng-template #NonvegFood>
+  <h1>
+     Plese Consider Non veg food menu
+  </h1>
+</ng-template>
+
+<h1 *ngIf="Food;then VegFood;else NonvegFood">
+
+</h1>
