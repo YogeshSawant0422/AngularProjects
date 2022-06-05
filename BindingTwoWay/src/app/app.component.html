@@ -1,0 +1,17 @@
+<!--
+  <h1>Inside App Component</h1>
+
+ <h1>Data From Ts to HTML : {{str}}</h1>
+
+
+<input #Mydata type="text">
+
+<button (click)="Send(Mydata.value)">Send Data</button>
+
+
+<h1>Data entered in textarea is : {{value}}</h1> -->
+
+<h1>Enter Your Name : </h1>
+
+<input [(ngModel)]="Name" type="text">
+<h1>Your Name is : {{Name}}</h1>
