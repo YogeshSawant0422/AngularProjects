@@ -7,11 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent
 {
-  title = 'ChildToParent';
+  title = 'Relation';
 
   public Data: any;
 
-  public SendToChild = "Hello From Parent";
-
-  
+  public Message = "Hello From Parent";
 }

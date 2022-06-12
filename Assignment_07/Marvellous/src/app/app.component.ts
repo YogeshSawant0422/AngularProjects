@@ -7,11 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent
 {
-  title = 'ChildToParent';
+  title = 'Marvellous';
 
-  public Data: any;
+  public Name = "Marvellous Infosystems";
 
-  public SendToChild = "Hello From Parent";
+ /* public fun()
+  {
+    return this.Name;
+  }*/
 
-  
+  public gun()
+  {
+    this.Name = "Educating for Better tomorrow";
+  }
 }

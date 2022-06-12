@@ -5,13 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent
 {
-  title = 'ChildToParent';
-
-  public Data: any;
-
-  public SendToChild = "Hello From Parent";
-
-  
+  images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/900/500`);
 }

@@ -5,13 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent
-{
-  title = 'ChildToParent';
-
-  public Data: any;
-
-  public SendToChild = "Hello From Parent";
-
-  
+export class AppComponent {
+  title = 'MaterialDemo';
 }

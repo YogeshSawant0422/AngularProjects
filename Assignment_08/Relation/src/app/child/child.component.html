@@ -1,0 +1,7 @@
+<h1>Inside Child Component</h1>
+
+<input type="text" #MyChild>
+
+<button (click)="Receive(MyChild.value)">Child Click</button>
+
+<h1>Message from the parent component:{{Data}}</h1>

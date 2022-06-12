@@ -8,6 +8,5 @@ import { Component, OnInit } from '@angular/core';
 export class MarvellousComponent
 {
   public Mycolor = "orange";
-  public Veg = true
-
+  public Veg = true;
 }

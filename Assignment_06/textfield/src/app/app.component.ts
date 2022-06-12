@@ -7,11 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent
 {
-  title = 'ChildToParent';
+  title = 'textfield';
 
-  public Data: any;
-
-  public SendToChild = "Hello From Parent";
-
-  
+  public FrontColor = "blue";
 }
